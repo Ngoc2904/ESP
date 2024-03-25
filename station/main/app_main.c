@@ -20,6 +20,7 @@
 #include "app_http_server.h"
 #include "output_iot.h"
 #include "dht11.h"
+#include "ledc_io.h"
 
 /* The examples use WiFi configuration that you can set via project configuration menu
 
@@ -152,6 +153,11 @@ void dht11_set_callback(void)
 }
 void slider_set_callback(char *dta,int llen){
      
+      char number_string[10];
+      memcpy(number_string,dta,llen+1);
+      int duty =atoi(number_string);
+      printf("%d\n",duty);
+      pwm_set_duty(duty);
 }
 void app_main(void)
 {
@@ -163,11 +169,12 @@ void app_main(void)
     }
     ESP_ERROR_CHECK(ret);
     DHT11_init(GPIO_NUM_4);
-    output_io_create(2);
+    //output_io_create(2);
     sw_callback(sw_set_callback);
     dht11_callback(dht11_set_callback);
-    slider_callback(slider_callback);
+    slider_callback(slider_set_callback);
     ESP_LOGI(TAG, "ESP_WIFI_MODE_STA");
+    pwm_init(2);
     wifi_init_sta();
 while(1){
     dht11_current_data=DHT11_read();
