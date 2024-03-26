@@ -1,4 +1,4 @@
-# Install script for directory: E:/Espressif/Project/station/common/dht11
+# Install script for directory: E:/Espressif/ESP/station/common/dht11
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

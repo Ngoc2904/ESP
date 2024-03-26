@@ -1,4 +1,4 @@
-# Install script for directory: E:/Espressif/Project/station/main
+# Install script for directory: E:/Espressif/ESP/station/main
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

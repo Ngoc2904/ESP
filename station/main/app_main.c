@@ -140,9 +140,9 @@ void wifi_init_sta(void)
 }
 void sw_set_callback(char *dta,uint16_t llen){
      if( *dta =='1'){
-      output_io_set_level(2,1);
+     pwm_set_duty(100);
      }else if(*dta =='0'){
-        output_io_set_level(2,0);
+         pwm_set_duty(0);
      }
 }
 void dht11_set_callback(void)
@@ -169,7 +169,7 @@ void app_main(void)
     }
     ESP_ERROR_CHECK(ret);
     DHT11_init(GPIO_NUM_4);
-    //output_io_create(2);
+    output_io_create(2);
     sw_callback(sw_set_callback);
     dht11_callback(dht11_set_callback);
     slider_callback(slider_set_callback);

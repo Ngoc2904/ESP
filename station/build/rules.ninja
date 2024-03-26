@@ -1552,7 +1552,7 @@ rule CXX_STATIC_LIBRARY_LINKER____idf_ws2812b
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = E:\Espressif\tools\cmake\3.16.4\bin\cmake.exe -SE:\Espressif\Project\station -BE:\Espressif\Project\station\build
+  command = E:\Espressif\tools\cmake\3.16.4\bin\cmake.exe -SE:\Espressif\ESP\station -BE:\Espressif\ESP\station\build
   description = Re-running CMake...
   generator = 1
 

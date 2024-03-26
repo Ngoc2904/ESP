@@ -1,4 +1,4 @@
-/* * Data converted from E:/Espressif/Project/station/build/esp-idf/mbedtls/x509_crt_bundle
+/* * Data converted from E:/Espressif/ESP/station/build/esp-idf/mbedtls/x509_crt_bundle
  */
 .data
 .section .rodata.embedded

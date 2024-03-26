@@ -1,4 +1,4 @@
-# Install script for directory: E:/Espressif/Project/station
+# Install script for directory: E:/Espressif/ESP/station
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("E:/Espressif/Project/station/build/esp-idf/cmake_install.cmake")
+  include("E:/Espressif/ESP/station/build/esp-idf/cmake_install.cmake")
 
 endif()
 
@@ -46,5 +46,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "E:/Espressif/Project/station/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "E:/Espressif/ESP/station/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

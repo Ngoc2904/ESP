@@ -80,7 +80,7 @@
 </head>
 <body>
   <div class="topnav">
-    <h3>DEVIOT DASHBOARD</h3>
+    <h3>IOT DASHBOARD</h3>
   </div>
   <div class="content">
     <div class="cards">
@@ -96,9 +96,8 @@
 </br>
 </br>
   
-  <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/1466954/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"></iframe>
-  <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/1466954/charts/2?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"></iframe>
-
+<iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/2475698/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"></iframe>
+<iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/2475698/charts/2?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"></iframe>
 </br>
 </br>
 
@@ -112,38 +111,10 @@
 </br>
 </br>
 
-  <h1>Range Slider Picture</h1>
-
   <div class="slidecontainer" >
     <input type="range" min="1" max="100" value="50" id="myRange">
     <p>Value: <span id="demo"></span></p>
   </div>
-
-  <div class="picker-container">
-    <div class="row">
-      <h3>ESP32 Color Picker</h3>
-    </div>
-    <input class="jscolor {onFineChange:'update(this)}" id="rgb">
-    <!-- <a class="button-picker" href="#" id="change_color" role="button" >Change Color</a>
-     -->
-     <button onclick="changColor()">Change</button>
-  </div>
-
-
-<script>
-  function changColor() {
-    var xhttp = new XMLHttpRequest();
-    var color = document.getElementById("rgb").value;
-    xhttp.open("GET", "/rgb?color=" + color);
-    xhttp.send();   
-  }
-</script>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jscolor/2.0.4/jscolor.min.js">
-  function update(picker) {
-    document.getElementById('rgb').innerHTML = Math.round(picker.rgb[0]) + ', ' + Math.round(picker.rgb[1]) + ', ' + Math.round(picker.rgb[2]);
-  }
-</script>
 
 <script>
 var xhttp1 = new XMLHttpRequest();

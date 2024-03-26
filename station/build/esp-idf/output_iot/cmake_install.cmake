@@ -1,4 +1,4 @@
-# Install script for directory: E:/Espressif/Project/station/common/output_iot
+# Install script for directory: E:/Espressif/ESP/station/common/output_iot
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

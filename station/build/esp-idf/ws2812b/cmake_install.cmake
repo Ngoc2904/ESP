@@ -1,4 +1,4 @@
-# Install script for directory: E:/Espressif/Project/station/common/ws2812b
+# Install script for directory: E:/Espressif/ESP/station/common/ws2812b
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
