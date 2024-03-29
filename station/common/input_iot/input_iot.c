@@ -22,7 +22,7 @@ void input_io_create(gpio_num_t gpio_num, interrupt_type_edle_t type)
 
 void input_io_get_level(gpio_num_t gpio_num)
 {  
-    return gpio_get_level(gpio_num);
+    //return gpio_get_level(gpio_num);
 }
 
 void input_set_callback(void * cb)

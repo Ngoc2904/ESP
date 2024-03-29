@@ -1,5 +1,8 @@
 {
     "files.associations": {
-        "dns.h": "c"
+        "dns.h": "c",
+        "esp_log.h": "c",
+        "protocol_examples_common.h": "c",
+        "app_http_server.h": "c"
     }
 }
