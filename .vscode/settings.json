@@ -7,6 +7,8 @@
         "mqtt_client.h": "c",
         "nvs.h": "c",
         "app_mqtt.h": "c",
-        "esp_https_server.h": "c"
+        "esp_https_server.h": "c",
+        "app_config.h": "c",
+        "*.ipp": "c"
     }
 }
