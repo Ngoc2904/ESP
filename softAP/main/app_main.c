@@ -82,7 +82,7 @@ int json_parse_user(char *json, int len)
     return 0;
 }
 
-int json_gen(json_gen_test_result_t *result, char *key1, int value1,char *key2, int value2,char *key3, int value3,char*key4,bool value4,char*key5,bool value5,char*key6,bool value6,char*key7,bool value7)
+int json_gen(json_gen_test_result_t *result, char *key1, int value1,char *key2, int value2,char *key3, float value3,char*key4,bool value4,char*key5,bool value5,char*key6,bool value6,char*key7,bool value7)
 {
 	char buf[20];
     memset(result, 0, sizeof(json_gen_test_result_t));
@@ -91,7 +91,7 @@ int json_gen(json_gen_test_result_t *result, char *key1, int value1,char *key2, 
 	json_gen_start_object(&jstr);    
 	json_gen_obj_set_int(&jstr, key1, value1);  
     json_gen_obj_set_int(&jstr, key2, value2);  
-    json_gen_obj_set_int(&jstr, key3, value3);
+    json_gen_obj_set_float(&jstr, key3, value3);
 
     json_gen_obj_set_bool(&jstr, key4, value4);
     json_gen_obj_set_bool(&jstr, key5, value5); 
@@ -103,11 +103,10 @@ int json_gen(json_gen_test_result_t *result, char *key1, int value1,char *key2, 
 }
  int duty;
 void mqtt_data_callback(char *dt, int len)
-{   
+{   dt[len] = '\0';
    duty=atoi(dt);
     pwm_set_duty(duty-1);
-
-    dt[len] = '\0';
+    
     printf("DATA=%s\r\n", dt);    
     //ota
     if(strstr(dt, "ota")){
@@ -116,25 +115,26 @@ void mqtt_data_callback(char *dt, int len)
     }
     // status
     if(strstr(dt, "fanon")){
-        pwm_set_duty(duty-1);
+        pwm_set_duty(100); 
         fan_on=true;
+        fan_off=false;
+        mode=false;
     } 
     else if(strstr(dt, "fanoff")){
          pwm_set_duty(0);
          fan_off=true;
-    }
-    //mode
-    if(strstr(dt, "mode_on")){
-         mode=true;
-       if(dht11_current_data.temperature>34){
+         fan_on=false;
+         mode=false;
+    }else if(strstr(dt,"mode_on")){
+          mode=true;
+          fan_off=false;
+          fan_on=false;
+       if(dht11_current_data.temperature>24){
         pwm_set_duty(100); 
        } 
-    }else if(strstr(dt, "mode_off")){
-        mode =false;
+    }else{
+        mode=false;
     }
-   //slider
-   int duty=atoi(dt);
-   //pwm_set_duty(dt);
 }
 
 void app_main(void)
@@ -161,7 +161,6 @@ void app_main(void)
     } 
     if(dht11_current_data.temperature!=-1){
          json_gen(&result,"Temperature",dht11_current_data.temperature,"Humidity",dht11_current_data.humidity,"Voltage",app_adc(),"fan_on",fan_on,"fan_off",fan_off,"mode",mode,"OTA",ota);
-         //printf("JSON: %s",result.buf);
          mqtt_pub("topic/iot1.1",&result.buf,strlen(result.buf));
          vTaskDelay(5000/portTICK_PERIOD_MS);
          continue;
