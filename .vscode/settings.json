@@ -9,7 +9,12 @@
         "app_mqtt.h": "c",
         "esp_https_server.h": "c",
         "app_config.h": "c",
-        "*.ipp": "c"
+        "*.ipp": "c",
+        "app_adc.h": "c",
+        "esp_event.h": "c",
+        "esp_system.h": "c",
+        "*.inc": "c",
+        "esp_smartconfig.h": "c"
     },
     "cmake.sourceDirectory": "E:/Espressif/ESP/esp-idf-v4.2.3/components/bt"
 }

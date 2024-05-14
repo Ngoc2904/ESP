@@ -15,7 +15,7 @@ var xhttp1 = new XMLHttpRequest();
 function myFunction() {
   var ssid = document.getElementById("ssid").value;
   var pass = document.getElementById("pass").value;
-  var data = ssid + "-" + pass;
+  var data = ssid + '/' + pass+'/' ;
   xhttp1.open("POST", "/post", true);
   xhttp1.send(data);  
 }
@@ -23,3 +23,4 @@ function myFunction() {
 
 </body>
 </html>
+  

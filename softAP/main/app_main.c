@@ -149,6 +149,7 @@ void app_main(void)
     ESP_ERROR_CHECK(esp_netif_init());
     ESP_ERROR_CHECK(esp_event_loop_create_default());
     pwm_init(2);
+    pwm_init(14);
     DHT11_init(4);
     mqtt_app_init();
     mqtt_set_callback(mqtt_data_callback);

@@ -14,7 +14,7 @@
 extern const uint8_t index_html_start[] asm("_binary_webserver_html_start");
 extern const uint8_t index_html_end[] asm("_binary_webserver_html_end");
 
-static const char *TAG = "example";
+static const char *TAGG = "HTTPPP";
 static httpd_handle_t server = NULL;
 
 static http_post_handle_t http_post_cb = NULL;
@@ -22,8 +22,8 @@ static http_post_handle_t http_post_cb = NULL;
 /* An HTTP GET handler */
 static esp_err_t http_get_handler(httpd_req_t *req)
 {
-    char*  buf;
-    size_t buf_len;
+    // char*  buf;
+    // // size_t buf_len;
 
     /* Send response with custom headers and body set as the
      * string passed in user context*/
@@ -46,12 +46,12 @@ static const httpd_uri_t http_get = {
 static esp_err_t http_post_handler(httpd_req_t *req)
 {
     char buf[100];
-    int ret, data_len = req->content_len;
+    int  data_len = req->content_len;
 
         /* Read the data for the request */
         httpd_req_recv(req, buf,data_len);
         /* Log data received */
-        ESP_LOGI(TAG, "Data recv: %.*s", data_len, buf);
+        ESP_LOGI(TAGG, "Data recv: %.*s", data_len, buf);
         http_post_cb(buf, data_len);
     // End response
     httpd_resp_send_chunk(req, NULL, 0);
@@ -98,10 +98,10 @@ void start_webserver(void)
     config.lru_purge_enable = true;
 
     // Start the httpd server
-    ESP_LOGI(TAG, "Starting server on port: '%d'", config.server_port);
+    ESP_LOGI(TAGG, "Starting server on port: '%d'", config.server_port);
     if (httpd_start(&server, &config) == ESP_OK) {
         // Set URI handlers
-        ESP_LOGI(TAG, "Registering URI handlers");
+        ESP_LOGI(TAGG, "Registering URI handlers");
         httpd_register_uri_handler(server, &http_get);
         httpd_register_uri_handler(server, &http_post);
     }
