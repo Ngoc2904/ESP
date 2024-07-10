@@ -14,7 +14,9 @@
         "esp_event.h": "c",
         "esp_system.h": "c",
         "*.inc": "c",
-        "esp_smartconfig.h": "c"
+        "esp_smartconfig.h": "c",
+        "hal_gpio.h": "c",
+        "sdkconfig.h": "c"
     },
     "cmake.sourceDirectory": "E:/Espressif/ESP/esp-idf-v4.2.3/components/bt"
 }
