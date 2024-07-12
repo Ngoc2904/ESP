@@ -4,19 +4,19 @@
 cmake_minimum_required(VERSION 3.5)
 
 file(MAKE_DIRECTORY
-  "D:/Espressif/frameworks/esp-idf-v5.2.2/components/bootloader/subproject"
-  "D:/Espressif/ESP/My_project/build/bootloader"
-  "D:/Espressif/ESP/My_project/build/bootloader-prefix"
-  "D:/Espressif/ESP/My_project/build/bootloader-prefix/tmp"
-  "D:/Espressif/ESP/My_project/build/bootloader-prefix/src/bootloader-stamp"
-  "D:/Espressif/ESP/My_project/build/bootloader-prefix/src"
-  "D:/Espressif/ESP/My_project/build/bootloader-prefix/src/bootloader-stamp"
+  "E:/Espressif/frameworks/esp-idf-v5.2.2/components/bootloader/subproject"
+  "E:/Espressif/ESP/My_project/build/bootloader"
+  "E:/Espressif/ESP/My_project/build/bootloader-prefix"
+  "E:/Espressif/ESP/My_project/build/bootloader-prefix/tmp"
+  "E:/Espressif/ESP/My_project/build/bootloader-prefix/src/bootloader-stamp"
+  "E:/Espressif/ESP/My_project/build/bootloader-prefix/src"
+  "E:/Espressif/ESP/My_project/build/bootloader-prefix/src/bootloader-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "D:/Espressif/ESP/My_project/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
+    file(MAKE_DIRECTORY "E:/Espressif/ESP/My_project/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "D:/Espressif/ESP/My_project/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "E:/Espressif/ESP/My_project/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
 endif()

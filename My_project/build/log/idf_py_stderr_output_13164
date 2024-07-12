@@ -1,0 +1,790 @@
+[0;33m--- WARNING: GDB cannot open serial ports accessed as COMx[0m
+[0;33m--- Using \\.\COM3 instead...[0m
+[0;33m--- esp-idf-monitor 1.4.0 on \\.\COM3 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4000c320: memcpy in ROM
+[0m
+[0;33m0x4000c2e0: memcpy in ROM
+0x4000c2f6: memcpy in ROM
+[0m
+[0;33m0x4000c31d: memcpy in ROM
+0x40085dee: prvCopyItemNoSplit at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:411
+0x40085ff0: prvSendAcquireGeneric at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:766
+0x4008614d: xRingbufferSend at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:1048
+0x400d8b58: uart_tx_all at E:/Espressif/frameworks/esp-idf-v5.2.2/components/driver/uart/uart.c:1326
+0x400d949a: uart_write_bytes at E:/Espressif/frameworks/esp-idf-v5.2.2/components/driver/uart/uart.c:1363
+0x400d5a9b: UART_tx_data at E:/Espressif/ESP/My_project/components/lib_uart/app_uart.c:98
+0x400d57c3: app_main at E:/Espressif/ESP/My_project/main/app_main.c:18
+0x400e6868: main_task at E:/Espressif/frameworks/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x40087171: vPortTaskWrapper at E:/Espressif/frameworks/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4000c320: memcpy in ROM
+[0m
+[0;33m0x4000c2e0: memcpy in ROM
+0x4000c2f6: memcpy in ROM
+[0m
+[0;33m0x4000c31d: memcpy in ROM
+0x40085dee: prvCopyItemNoSplit at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:411
+0x40085ff0: prvSendAcquireGeneric at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:766
+0x4008614d: xRingbufferSend at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:1048
+0x400d8b58: uart_tx_all at E:/Espressif/frameworks/esp-idf-v5.2.2/components/driver/uart/uart.c:1326
+0x400d949a: uart_write_bytes at E:/Espressif/frameworks/esp-idf-v5.2.2/components/driver/uart/uart.c:1363
+0x400d5a9b: UART_tx_data at E:/Espressif/ESP/My_project/components/lib_uart/app_uart.c:98
+0x400d57c3: app_main at E:/Espressif/ESP/My_project/main/app_main.c:18
+0x400e6868: main_task at E:/Espressif/frameworks/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x40087171: vPortTaskWrapper at E:/Espressif/frameworks/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4000c320: memcpy in ROM
+[0m
+[0;33m0x4000c2e0: memcpy in ROM
+0x4000c2f6: memcpy in ROM
+[0m
+[0;33m0x4000c31d: memcpy in ROM
+0x40085dee: prvCopyItemNoSplit at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:411
+0x40085ff0: prvSendAcquireGeneric at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:766
+0x4008614d: xRingbufferSend at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:1048
+0x400d8b58: uart_tx_all at E:/Espressif/frameworks/esp-idf-v5.2.2/components/driver/uart/uart.c:1326
+0x400d949a: uart_write_bytes at E:/Espressif/frameworks/esp-idf-v5.2.2/components/driver/uart/uart.c:1363
+0x400d5a9b: UART_tx_data at E:/Espressif/ESP/My_project/components/lib_uart/app_uart.c:98
+0x400d57c3: app_main at E:/Espressif/ESP/My_project/main/app_main.c:18
+0x400e6868: main_task at E:/Espressif/frameworks/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x40087171: vPortTaskWrapper at E:/Espressif/frameworks/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4000c320: memcpy in ROM
+[0m
+[0;33m0x4000c2e0: memcpy in ROM
+0x4000c2f6: memcpy in ROM
+[0m
+[0;33m0x4000c31d: memcpy in ROM
+0x40085dee: prvCopyItemNoSplit at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:411
+0x40085ff0: prvSendAcquireGeneric at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:766
+0x4008614d: xRingbufferSend at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:1048
+0x400d8b58: uart_tx_all at E:/Espressif/frameworks/esp-idf-v5.2.2/components/driver/uart/uart.c:1326
+0x400d949a: uart_write_bytes at E:/Espressif/frameworks/esp-idf-v5.2.2/components/driver/uart/uart.c:1363
+0x400d5a9b: UART_tx_data at E:/Espressif/ESP/My_project/components/lib_uart/app_uart.c:98
+0x400d57c3: app_main at E:/Espressif/ESP/My_project/main/app_main.c:18
+0x400e6868: main_task at E:/Espressif/frameworks/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x40087171: vPortTaskWrapper at E:/Espressif/frameworks/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4000c320: memcpy in ROM
+[0m
+[0;33m0x4000c2e0: memcpy in ROM
+0x4000c2f6: memcpy in ROM
+[0m
+[0;33m0x4000c31d: memcpy in ROM
+0x40085dee: prvCopyItemNoSplit at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:411
+0x40085ff0: prvSendAcquireGeneric at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:766
+0x4008614d: xRingbufferSend at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:1048
+0x400d8b58: uart_tx_all at E:/Espressif/frameworks/esp-idf-v5.2.2/components/driver/uart/uart.c:1326
+0x400d949a: uart_write_bytes at E:/Espressif/frameworks/esp-idf-v5.2.2/components/driver/uart/uart.c:1363
+0x400d5a9b: UART_tx_data at E:/Espressif/ESP/My_project/components/lib_uart/app_uart.c:98
+0x400d57c3: app_main at E:/Espressif/ESP/My_project/main/app_main.c:18
+0x400e6868: main_task at E:/Espressif/frameworks/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x40087171: vPortTaskWrapper at E:/Espressif/frameworks/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4000c320: memcpy in ROM
+[0m
+[0;33m0x4000c2e0: memcpy in ROM
+0x4000c2f6: memcpy in ROM
+[0m
+[0;33m0x4000c31d: memcpy in ROM
+0x40085dee: prvCopyItemNoSplit at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:411
+0x40085ff0: prvSendAcquireGeneric at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:766
+0x4008614d: xRingbufferSend at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:1048
+0x400d8b58: uart_tx_all at E:/Espressif/frameworks/esp-idf-v5.2.2/components/driver/uart/uart.c:1326
+0x400d949a: uart_write_bytes at E:/Espressif/frameworks/esp-idf-v5.2.2/components/driver/uart/uart.c:1363
+0x400d5a9b: UART_tx_data at E:/Espressif/ESP/My_project/components/lib_uart/app_uart.c:98
+0x400d57c3: app_main at E:/Espressif/ESP/My_project/main/app_main.c:18
+0x400e6868: main_task at E:/Espressif/frameworks/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x40087171: vPortTaskWrapper at E:/Espressif/frameworks/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4000c320: memcpy in ROM
+[0m
+[0;33m0x4000c2e0: memcpy in ROM
+0x4000c2f6: memcpy in ROM
+[0m
+[0;33m0x4000c31d: memcpy in ROM
+0x40085dee: prvCopyItemNoSplit at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:411
+0x40085ff0: prvSendAcquireGeneric at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:766
+0x4008614d: xRingbufferSend at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:1048
+0x400d8b58: uart_tx_all at E:/Espressif/frameworks/esp-idf-v5.2.2/components/driver/uart/uart.c:1326
+0x400d949a: uart_write_bytes at E:/Espressif/frameworks/esp-idf-v5.2.2/components/driver/uart/uart.c:1363
+0x400d5a9b: UART_tx_data at E:/Espressif/ESP/My_project/components/lib_uart/app_uart.c:98
+0x400d57c3: app_main at E:/Espressif/ESP/My_project/main/app_main.c:18
+0x400e6868: main_task at E:/Espressif/frameworks/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x40087171: vPortTaskWrapper at E:/Espressif/frameworks/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4000c320: memcpy in ROM
+[0m
+[0;33m0x4000c2e0: memcpy in ROM
+0x4000c2f6: memcpy in ROM
+[0m
+[0;33m0x4000c31d: memcpy in ROM
+0x40085dee: prvCopyItemNoSplit at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:411
+0x40085ff0: prvSendAcquireGeneric at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:766
+0x4008614d: xRingbufferSend at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:1048
+0x400d8b58: uart_tx_all at E:/Espressif/frameworks/esp-idf-v5.2.2/components/driver/uart/uart.c:1326
+0x400d949a: uart_write_bytes at E:/Espressif/frameworks/esp-idf-v5.2.2/components/driver/uart/uart.c:1363
+0x400d5a9b: UART_tx_data at E:/Espressif/ESP/My_project/components/lib_uart/app_uart.c:98
+0x400d57c3: app_main at E:/Espressif/ESP/My_project/main/app_main.c:18
+0x400e6868: main_task at E:/Espressif/frameworks/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x40087171: vPortTaskWrapper at E:/Espressif/frameworks/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4000c320: memcpy in ROM
+[0m
+[0;33m0x4000c2e0: memcpy in ROM
+0x4000c2f6: memcpy in ROM
+[0m
+[0;33m0x4000c31d: memcpy in ROM
+0x40085dee: prvCopyItemNoSplit at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:411
+0x40085ff0: prvSendAcquireGeneric at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:766
+0x4008614d: xRingbufferSend at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:1048
+0x400d8b58: uart_tx_all at E:/Espressif/frameworks/esp-idf-v5.2.2/components/driver/uart/uart.c:1326
+0x400d949a: uart_write_bytes at E:/Espressif/frameworks/esp-idf-v5.2.2/components/driver/uart/uart.c:1363
+0x400d5a9b: UART_tx_data at E:/Espressif/ESP/My_project/components/lib_uart/app_uart.c:98
+0x400d57c3: app_main at E:/Espressif/ESP/My_project/main/app_main.c:18
+0x400e6868: main_task at E:/Espressif/frameworks/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x40087171: vPortTaskWrapper at E:/Espressif/frameworks/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4000c320: memcpy in ROM
+[0m
+[0;33m0x4000c2e0: memcpy in ROM
+0x4000c2f6: memcpy in ROM
+[0m
+[0;33m0x4000c31d: memcpy in ROM
+0x40085dee: prvCopyItemNoSplit at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:411
+0x40085ff0: prvSendAcquireGeneric at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:766
+0x4008614d: xRingbufferSend at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:1048
+0x400d8b58: uart_tx_all at E:/Espressif/frameworks/esp-idf-v5.2.2/components/driver/uart/uart.c:1326
+0x400d949a: uart_write_bytes at E:/Espressif/frameworks/esp-idf-v5.2.2/components/driver/uart/uart.c:1363
+0x400d5a9b: UART_tx_data at E:/Espressif/ESP/My_project/components/lib_uart/app_uart.c:98
+0x400d57c3: app_main at E:/Espressif/ESP/My_project/main/app_main.c:18
+0x400e6868: main_task at E:/Espressif/frameworks/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x40087171: vPortTaskWrapper at E:/Espressif/frameworks/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4000c320: memcpy in ROM
+[0m
+[0;33m0x4000c2e0: memcpy in ROM
+0x4000c2f6: memcpy in ROM
+[0m
+[0;33m0x4000c31d: memcpy in ROM
+0x40085dee: prvCopyItemNoSplit at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:411
+0x40085ff0: prvSendAcquireGeneric at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:766
+0x4008614d: xRingbufferSend at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:1048
+0x400d8b58: uart_tx_all at E:/Espressif/frameworks/esp-idf-v5.2.2/components/driver/uart/uart.c:1326
+0x400d949a: uart_write_bytes at E:/Espressif/frameworks/esp-idf-v5.2.2/components/driver/uart/uart.c:1363
+0x400d5a9b: UART_tx_data at E:/Espressif/ESP/My_project/components/lib_uart/app_uart.c:98
+0x400d57c3: app_main at E:/Espressif/ESP/My_project/main/app_main.c:18
+0x400e6868: main_task at E:/Espressif/frameworks/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x40087171: vPortTaskWrapper at E:/Espressif/frameworks/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4000c320: memcpy in ROM
+[0m
+[0;33m0x4000c2e0: memcpy in ROM
+0x4000c2f6: memcpy in ROM
+[0m
+[0;33m0x4000c31d: memcpy in ROM
+0x40085dee: prvCopyItemNoSplit at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:411
+0x40085ff0: prvSendAcquireGeneric at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:766
+0x4008614d: xRingbufferSend at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:1048
+0x400d8b58: uart_tx_all at E:/Espressif/frameworks/esp-idf-v5.2.2/components/driver/uart/uart.c:1326
+0x400d949a: uart_write_bytes at E:/Espressif/frameworks/esp-idf-v5.2.2/components/driver/uart/uart.c:1363
+0x400d5a9b: UART_tx_data at E:/Espressif/ESP/My_project/components/lib_uart/app_uart.c:98
+0x400d57c3: app_main at E:/Espressif/ESP/My_project/main/app_main.c:18
+0x400e6868: main_task at E:/Espressif/frameworks/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x40087171: vPortTaskWrapper at E:/Espressif/frameworks/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4000c320: memcpy in ROM
+[0m
+[0;33m0x4000c2e0: memcpy in ROM
+0x4000c2f6: memcpy in ROM
+[0m
+[0;33m0x4000c31d: memcpy in ROM
+0x40085dee: prvCopyItemNoSplit at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:411
+0x40085ff0: prvSendAcquireGeneric at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:766
+0x4008614d: xRingbufferSend at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:1048
+0x400d8b58: uart_tx_all at E:/Espressif/frameworks/esp-idf-v5.2.2/components/driver/uart/uart.c:1326
+0x400d949a: uart_write_bytes at E:/Espressif/frameworks/esp-idf-v5.2.2/components/driver/uart/uart.c:1363
+0x400d5a9b: UART_tx_data at E:/Espressif/ESP/My_project/components/lib_uart/app_uart.c:98
+0x400d57c3: app_main at E:/Espressif/ESP/My_project/main/app_main.c:18
+[0m
+[0;33m0x40087171: vPortTaskWrapper at E:/Espressif/frameworks/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4000c320: memcpy in ROM
+[0m
+[0;33m0x4000c2e0: memcpy in ROM
+0x4000c2f6: memcpy in ROM
+[0m
+[0;33m0x4000c31d: memcpy in ROM
+0x40085dee: prvCopyItemNoSplit at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:411
+0x40085ff0: prvSendAcquireGeneric at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:766
+0x4008614d: xRingbufferSend at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:1048
+0x400d8b58: uart_tx_all at E:/Espressif/frameworks/esp-idf-v5.2.2/components/driver/uart/uart.c:1326
+0x400d949a: uart_write_bytes at E:/Espressif/frameworks/esp-idf-v5.2.2/components/driver/uart/uart.c:1363
+0x400d5a9b: UART_tx_data at E:/Espressif/ESP/My_project/components/lib_uart/app_uart.c:98
+0x400d57c3: app_main at E:/Espressif/ESP/My_project/main/app_main.c:18
+0x400e6868: main_task at E:/Espressif/frameworks/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x40087171: vPortTaskWrapper at E:/Espressif/frameworks/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4000c320: memcpy in ROM
+[0m
+[0;33m0x4000c2e0: memcpy in ROM
+0x4000c2f6: memcpy in ROM
+[0m
+[0;33m0x4000c31d: memcpy in ROM
+0x40085dee: prvCopyItemNoSplit at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:411
+0x40085ff0: prvSendAcquireGeneric at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:766
+0x4008614d: xRingbufferSend at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:1048
+0x400d8b58: uart_tx_all at E:/Espressif/frameworks/esp-idf-v5.2.2/components/driver/uart/uart.c:1326
+0x400d949a: uart_write_bytes at E:/Espressif/frameworks/esp-idf-v5.2.2/components/driver/uart/uart.c:1363
+0x400d5a9b: UART_tx_data at E:/Espressif/ESP/My_project/components/lib_uart/app_uart.c:98
+0x400d57c3: app_main at E:/Espressif/ESP/My_project/main/app_main.c:18
+0x400e6868: main_task at E:/Espressif/frameworks/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x40087171: vPortTaskWrapper at E:/Espressif/frameworks/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4000c320: memcpy in ROM
+[0m
+[0;33m0x4000c2e0: memcpy in ROM
+0x4000c2f6: memcpy in ROM
+[0m
+[0;33m0x4000c31d: memcpy in ROM
+0x40085dee: prvCopyItemNoSplit at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:411
+0x40085ff0: prvSendAcquireGeneric at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:766
+0x4008614d: xRingbufferSend at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:1048
+0x400d8b58: uart_tx_all at E:/Espressif/frameworks/esp-idf-v5.2.2/components/driver/uart/uart.c:1326
+0x400d949a: uart_write_bytes at E:/Espressif/frameworks/esp-idf-v5.2.2/components/driver/uart/uart.c:1363
+0x400d5a9b: UART_tx_data at E:/Espressif/ESP/My_project/components/lib_uart/app_uart.c:98
+0x400d57c3: app_main at E:/Espressif/ESP/My_project/main/app_main.c:18
+0x400e6868: main_task at E:/Espressif/frameworks/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x40087171: vPortTaskWrapper at E:/Espressif/frameworks/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4000c320: memcpy in ROM
+[0m
+[0;33m0x4000c2e0: memcpy in ROM
+0x4000c2f6: memcpy in ROM
+[0m
+[0;33m0x4000c31d: memcpy in ROM
+0x40085dee: prvCopyItemNoSplit at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:411
+0x40085ff0: prvSendAcquireGeneric at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:766
+0x4008614d: xRingbufferSend at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:1048
+0x400d8b58: uart_tx_all at E:/Espressif/frameworks/esp-idf-v5.2.2/components/driver/uart/uart.c:1326
+0x400d949a: uart_write_bytes at E:/Espressif/frameworks/esp-idf-v5.2.2/components/driver/uart/uart.c:1363
+0x400d5a9b: UART_tx_data at E:/Espressif/ESP/My_project/components/lib_uart/app_uart.c:98
+0x400d57c3: app_main at E:/Espressif/ESP/My_project/main/app_main.c:18
+0x400e6868: main_task at E:/Espressif/frameworks/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x40087171: vPortTaskWrapper at E:/Espressif/frameworks/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4000c320: memcpy in ROM
+[0m
+[0;33m0x4000c2e0: memcpy in ROM
+0x4000c2f6: memcpy in ROM
+[0m
+[0;33m0x4000c31d: memcpy in ROM
+0x40085dee: prvCopyItemNoSplit at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:411
+0x40085ff0: prvSendAcquireGeneric at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:766
+0x4008614d: xRingbufferSend at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:1048
+0x400d8b58: uart_tx_all at E:/Espressif/frameworks/esp-idf-v5.2.2/components/driver/uart/uart.c:1326
+0x400d949a: uart_write_bytes at E:/Espressif/frameworks/esp-idf-v5.2.2/components/driver/uart/uart.c:1363
+0x400d5a9b: UART_tx_data at E:/Espressif/ESP/My_project/components/lib_uart/app_uart.c:98
+0x400d57c3: app_main at E:/Espressif/ESP/My_project/main/app_main.c:18
+0x400e6868: main_task at E:/Espressif/frameworks/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x40087171: vPortTaskWrapper at E:/Espressif/frameworks/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4000c320: memcpy in ROM
+[0m
+[0;33m0x4000c2e0: memcpy in ROM
+0x4000c2f6: memcpy in ROM
+[0m
+[0;33m0x4000c31d: memcpy in ROM
+0x40085dee: prvCopyItemNoSplit at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:411
+0x40085ff0: prvSendAcquireGeneric at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:766
+0x4008614d: xRingbufferSend at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:1048
+0x400d8b58: uart_tx_all at E:/Espressif/frameworks/esp-idf-v5.2.2/components/driver/uart/uart.c:1326
+0x400d949a: uart_write_bytes at E:/Espressif/frameworks/esp-idf-v5.2.2/components/driver/uart/uart.c:1363
+0x400d5a9b: UART_tx_data at E:/Espressif/ESP/My_project/components/lib_uart/app_uart.c:98
+0x400d57c3: app_main at E:/Espressif/ESP/My_project/main/app_main.c:18
+0x400e6868: main_task at E:/Espressif/frameworks/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x40087171: vPortTaskWrapper at E:/Espressif/frameworks/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4000c320: memcpy in ROM
+[0m
+[0;33m0x4000c2e0: memcpy in ROM
+0x4000c2f6: memcpy in ROM
+[0m
+[0;33m0x4000c31d: memcpy in ROM
+0x40085dee: prvCopyItemNoSplit at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:411
+0x40085ff0: prvSendAcquireGeneric at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:766
+0x4008614d: xRingbufferSend at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:1048
+0x400d8b58: uart_tx_all at E:/Espressif/frameworks/esp-idf-v5.2.2/components/driver/uart/uart.c:1326
+0x400d949a: uart_write_bytes at E:/Espressif/frameworks/esp-idf-v5.2.2/components/driver/uart/uart.c:1363
+0x400d5a9b: UART_tx_data at E:/Espressif/ESP/My_project/components/lib_uart/app_uart.c:98
+0x400d57c3: app_main at E:/Espressif/ESP/My_project/main/app_main.c:18
+0x400e6868: main_task at E:/Espressif/frameworks/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x40087171: vPortTaskWrapper at E:/Espressif/frameworks/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4000c320: memcpy in ROM
+[0m
+[0;33m0x4000c2e0: memcpy in ROM
+0x4000c2f6: memcpy in ROM
+[0m
+[0;33m0x4000c31d: memcpy in ROM
+0x40085dee: prvCopyItemNoSplit at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:411
+0x40085ff0: prvSendAcquireGeneric at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:766
+0x4008614d: xRingbufferSend at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:1048
+0x400d8b58: uart_tx_all at E:/Espressif/frameworks/esp-idf-v5.2.2/components/driver/uart/uart.c:1326
+0x400d949a: uart_write_bytes at E:/Espressif/frameworks/esp-idf-v5.2.2/components/driver/uart/uart.c:1363
+0x400d5a9b: UART_tx_data at E:/Espressif/ESP/My_project/components/lib_uart/app_uart.c:98
+0x400d57c3: app_main at E:/Espressif/ESP/My_project/main/app_main.c:18
+0x400e6868: main_task at E:/Espressif/frameworks/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x40087171: vPortTaskWrapper at E:/Espressif/frameworks/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4000c320: memcpy in ROM
+[0m
+[0;33m0x4000c2e0: memcpy in ROM
+0x4000c2f6: memcpy in ROM
+[0m
+[0;33m0x4000c31d: memcpy in ROM
+0x40085dee: prvCopyItemNoSplit at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:411
+0x40085ff0: prvSendAcquireGeneric at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:766
+0x4008614d: xRingbufferSend at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:1048
+0x400d8b58: uart_tx_all at E:/Espressif/frameworks/esp-idf-v5.2.2/components/driver/uart/uart.c:1326
+0x400d949a: uart_write_bytes at E:/Espressif/frameworks/esp-idf-v5.2.2/components/driver/uart/uart.c:1363
+0x400d5a9b: UART_tx_data at E:/Espressif/ESP/My_project/components/lib_uart/app_uart.c:98
+0x400d57c3: app_main at E:/Espressif/ESP/My_project/main/app_main.c:18
+0x400e6868: main_task at E:/Espressif/frameworks/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x40087171: vPortTaskWrapper at E:/Espressif/frameworks/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4000c320: memcpy in ROM
+[0m
+[0;33m0x4000c2e0: memcpy in ROM
+0x4000c2f6: memcpy in ROM
+[0m
+[0;33m0x4000c31d: memcpy in ROM
+0x40085dee: prvCopyItemNoSplit at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:411
+0x40085ff0: prvSendAcquireGeneric at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:766
+0x4008614d: xRingbufferSend at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:1048
+0x400d8b58: uart_tx_all at E:/Espressif/frameworks/esp-idf-v5.2.2/components/driver/uart/uart.c:1326
+0x400d949a: uart_write_bytes at E:/Espressif/frameworks/esp-idf-v5.2.2/components/driver/uart/uart.c:1363
+0x400d5a9b: UART_tx_data at E:/Espressif/ESP/My_project/components/lib_uart/app_uart.c:98
+0x400d57c3: app_main at E:/Espressif/ESP/My_project/main/app_main.c:18
+0x400e6868: main_task at E:/Espressif/frameworks/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x40087171: vPortTaskWrapper at E:/Espressif/frameworks/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4000c320: memcpy in ROM
+[0m
+[0;33m0x4000c2e0: memcpy in ROM
+0x4000c2f6: memcpy in ROM
+[0m
+[0;33m0x4000c31d: memcpy in ROM
+0x40085dee: prvCopyItemNoSplit at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:411
+0x40085ff0: prvSendAcquireGeneric at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:766
+0x4008614d: xRingbufferSend at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:1048
+0x400d8b58: uart_tx_all at E:/Espressif/frameworks/esp-idf-v5.2.2/components/driver/uart/uart.c:1326
+0x400d949a: uart_write_bytes at E:/Espressif/frameworks/esp-idf-v5.2.2/components/driver/uart/uart.c:1363
+0x400d5a9b: UART_tx_data at E:/Espressif/ESP/My_project/components/lib_uart/app_uart.c:98
+0x400d57c3: app_main at E:/Espressif/ESP/My_project/main/app_main.c:18
+0x400e6868: main_task at E:/Espressif/frameworks/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x40087171: vPortTaskWrapper at E:/Espressif/frameworks/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4000c320: memcpy in ROM
+[0m
+[0;33m0x4000c2e0: memcpy in ROM
+0x4000c2f6: memcpy in ROM
+[0m
+[0;33m0x4000c31d: memcpy in ROM
+0x40085dee: prvCopyItemNoSplit at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:411
+0x40085ff0: prvSendAcquireGeneric at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:766
+0x4008614d: xRingbufferSend at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:1048
+0x400d8b58: uart_tx_all at E:/Espressif/frameworks/esp-idf-v5.2.2/components/driver/uart/uart.c:1326
+0x400d949a: uart_write_bytes at E:/Espressif/frameworks/esp-idf-v5.2.2/components/driver/uart/uart.c:1363
+0x400d5a9b: UART_tx_data at E:/Espressif/ESP/My_project/components/lib_uart/app_uart.c:98
+0x400d57c3: app_main at E:/Espressif/ESP/My_project/main/app_main.c:18
+0x400e6868: main_task at E:/Espressif/frameworks/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x40087171: vPortTaskWrapper at E:/Espressif/frameworks/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4000c320: memcpy in ROM
+[0m
+[0;33m0x4000c2e0: memcpy in ROM
+0x4000c2f6: memcpy in ROM
+[0m
+[0;33m0x4000c31d: memcpy in ROM
+0x40085dee: prvCopyItemNoSplit at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:411
+0x40085ff0: prvSendAcquireGeneric at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:766
+0x4008614d: xRingbufferSend at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:1048
+0x400d8b58: uart_tx_all at E:/Espressif/frameworks/esp-idf-v5.2.2/components/driver/uart/uart.c:1326
+0x400d949a: uart_write_bytes at E:/Espressif/frameworks/esp-idf-v5.2.2/components/driver/uart/uart.c:1363
+0x400d5a9b: UART_tx_data at E:/Espressif/ESP/My_project/components/lib_uart/app_uart.c:98
+0x400d57c3: app_main at E:/Espressif/ESP/My_project/main/app_main.c:18
+0x400e6868: main_task at E:/Espressif/frameworks/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x40087171: vPortTaskWrapper at E:/Espressif/frameworks/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4000c320: memcpy in ROM
+[0m
+[0;33m0x4000c2e0: memcpy in ROM
+0x4000c2f6: memcpy in ROM
+[0m
+[0;33m0x4000c31d: memcpy in ROM
+0x40085dee: prvCopyItemNoSplit at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:411
+0x40085ff0: prvSendAcquireGeneric at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:766
+0x4008614d: xRingbufferSend at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:1048
+0x400d8b58: uart_tx_all at E:/Espressif/frameworks/esp-idf-v5.2.2/components/driver/uart/uart.c:1326
+0x400d949a: uart_write_bytes at E:/Espressif/frameworks/esp-idf-v5.2.2/components/driver/uart/uart.c:1363
+0x400d5a9b: UART_tx_data at E:/Espressif/ESP/My_project/components/lib_uart/app_uart.c:98
+0x400d57c3: app_main at E:/Espressif/ESP/My_project/main/app_main.c:18
+0x400e6868: main_task at E:/Espressif/frameworks/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x40087171: vPortTaskWrapper at E:/Espressif/frameworks/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4000c320: memcpy in ROM
+[0m
+[0;33m0x4000c2e0: memcpy in ROM
+0x4000c2f6: memcpy in ROM
+[0m
+[0;33m0x4000c31d: memcpy in ROM
+0x40085dee: prvCopyItemNoSplit at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:411
+0x40085ff0: prvSendAcquireGeneric at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:766
+0x4008614d: xRingbufferSend at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:1048
+0x400d8b58: uart_tx_all at E:/Espressif/frameworks/esp-idf-v5.2.2/components/driver/uart/uart.c:1326
+0x400d949a: uart_write_bytes at E:/Espressif/frameworks/esp-idf-v5.2.2/components/driver/uart/uart.c:1363
+0x400d5a9b: UART_tx_data at E:/Espressif/ESP/My_project/components/lib_uart/app_uart.c:98
+0x400d57c3: app_main at E:/Espressif/ESP/My_project/main/app_main.c:18
+0x400e6868: main_task at E:/Espressif/frameworks/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x40087171: vPortTaskWrapper at E:/Espressif/frameworks/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4000c320: memcpy in ROM
+[0m
+[0;33m0x4000c2e0: memcpy in ROM
+0x4000c2f6: memcpy in ROM
+[0m
+[0;33m0x4000c31d: memcpy in ROM
+0x40085dee: prvCopyItemNoSplit at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:411
+0x40085ff0: prvSendAcquireGeneric at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:766
+0x4008614d: xRingbufferSend at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:1048
+0x400d8b58: uart_tx_all at E:/Espressif/frameworks/esp-idf-v5.2.2/components/driver/uart/uart.c:1326
+0x400d949a: uart_write_bytes at E:/Espressif/frameworks/esp-idf-v5.2.2/components/driver/uart/uart.c:1363
+0x400d5a9b: UART_tx_data at E:/Espressif/ESP/My_project/components/lib_uart/app_uart.c:98
+0x400d57c3: app_main at E:/Espressif/ESP/My_project/main/app_main.c:18
+0x400e6868: main_task at E:/Espressif/frameworks/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x40087171: vPortTaskWrapper at E:/Espressif/frameworks/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4000c320: memcpy in ROM
+[0m
+[0;33m0x4000c2e0: memcpy in ROM
+0x4000c2f6: memcpy in ROM
+[0m
+[0;33m0x4000c31d: memcpy in ROM
+0x40085dee: prvCopyItemNoSplit at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:411
+0x40085ff0: prvSendAcquireGeneric at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:766
+0x4008614d: xRingbufferSend at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:1048
+0x400d8b58: uart_tx_all at E:/Espressif/frameworks/esp-idf-v5.2.2/components/driver/uart/uart.c:1326
+0x400d949a: uart_write_bytes at E:/Espressif/frameworks/esp-idf-v5.2.2/components/driver/uart/uart.c:1363
+0x400d5a9b: UART_tx_data at E:/Espressif/ESP/My_project/components/lib_uart/app_uart.c:98
+0x400d57c3: app_main at E:/Espressif/ESP/My_project/main/app_main.c:18
+0x400e6868: main_task at E:/Espressif/frameworks/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x40087171: vPortTaskWrapper at E:/Espressif/frameworks/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4000c320: memcpy in ROM
+[0m
+[0;33m0x4000c2e0: memcpy in ROM
+0x4000c2f6: memcpy in ROM
+[0m
+[0;33m0x4000c31d: memcpy in ROM
+0x40085dee: prvCopyItemNoSplit at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:411
+0x40085ff0: prvSendAcquireGeneric at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:766
+0x4008614d: xRingbufferSend at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:1048
+0x400d8b58: uart_tx_all at E:/Espressif/frameworks/esp-idf-v5.2.2/components/driver/uart/uart.c:1326
+0x400d949a: uart_write_bytes at E:/Espressif/frameworks/esp-idf-v5.2.2/components/driver/uart/uart.c:1363
+0x400d5a9b: UART_tx_data at E:/Espressif/ESP/My_project/components/lib_uart/app_uart.c:98
+0x400d57c3: app_main at E:/Espressif/ESP/My_project/main/app_main.c:18
+0x400e6868: main_task at E:/Espressif/frameworks/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x40087171: vPortTaskWrapper at E:/Espressif/frameworks/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4000c320: memcpy in ROM
+[0m
+[0;33m0x4000c2e0: memcpy in ROM
+0x4000c2f6: memcpy in ROM
+[0m
+[0;33m0x4000c31d: memcpy in ROM
+0x40085dee: prvCopyItemNoSplit at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:411
+0x40085ff0: prvSendAcquireGeneric at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:766
+0x4008614d: xRingbufferSend at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:1048
+0x400d8b58: uart_tx_all at E:/Espressif/frameworks/esp-idf-v5.2.2/components/driver/uart/uart.c:1326
+0x400d949a: uart_write_bytes at E:/Espressif/frameworks/esp-idf-v5.2.2/components/driver/uart/uart.c:1363
+0x400d5a9b: UART_tx_data at E:/Espressif/ESP/My_project/components/lib_uart/app_uart.c:98
+0x400d57c3: app_main at E:/Espressif/ESP/My_project/main/app_main.c:18
+0x400e6868: main_task at E:/Espressif/frameworks/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x40087171: vPortTaskWrapper at E:/Espressif/frameworks/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4000c320: memcpy in ROM
+[0m
+[0;33m0x4000c2e0: memcpy in ROM
+0x4000c2f6: memcpy in ROM
+[0m
+[0;33m0x4000c31d: memcpy in ROM
+0x40085dee: prvCopyItemNoSplit at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:411
+0x40085ff0: prvSendAcquireGeneric at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:766
+0x4008614d: xRingbufferSend at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:1048
+0x400d8b58: uart_tx_all at E:/Espressif/frameworks/esp-idf-v5.2.2/components/driver/uart/uart.c:1326
+0x400d949a: uart_write_bytes at E:/Espressif/frameworks/esp-idf-v5.2.2/components/driver/uart/uart.c:1363
+0x400d5a9b: UART_tx_data at E:/Espressif/ESP/My_project/components/lib_uart/app_uart.c:98
+0x400d57c3: app_main at E:/Espressif/ESP/My_project/main/app_main.c:18
+0x400e6868: main_task at E:/Espressif/frameworks/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x40087171: vPortTaskWrapper at E:/Espressif/frameworks/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4000c320: memcpy in ROM
+[0m
+[0;33m0x4000c2e0: memcpy in ROM
+0x4000c2f6: memcpy in ROM
+[0m
+[0;33m0x4000c31d: memcpy in ROM
+0x40085dee: prvCopyItemNoSplit at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:411
+0x40085ff0: prvSendAcquireGeneric at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:766
+0x4008614d: xRingbufferSend at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:1048
+0x400d8b58: uart_tx_all at E:/Espressif/frameworks/esp-idf-v5.2.2/components/driver/uart/uart.c:1326
+0x400d949a: uart_write_bytes at E:/Espressif/frameworks/esp-idf-v5.2.2/components/driver/uart/uart.c:1363
+0x400d5a9b: UART_tx_data at E:/Espressif/ESP/My_project/components/lib_uart/app_uart.c:98
+0x400d57c3: app_main at E:/Espressif/ESP/My_project/main/app_main.c:18
+0x400e6868: main_task at E:/Espressif/frameworks/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x40087171: vPortTaskWrapper at E:/Espressif/frameworks/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4000c320: memcpy in ROM
+[0m
+[0;33m0x4000c2e0: memcpy in ROM
+0x4000c2f6: memcpy in ROM
+[0m
+[0;33m0x4000c31d: memcpy in ROM
+0x40085dee: prvCopyItemNoSplit at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:411
+0x40085ff0: prvSendAcquireGeneric at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:766
+0x4008614d: xRingbufferSend at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:1048
+0x400d8b58: uart_tx_all at E:/Espressif/frameworks/esp-idf-v5.2.2/components/driver/uart/uart.c:1326
+0x400d949a: uart_write_bytes at E:/Espressif/frameworks/esp-idf-v5.2.2/components/driver/uart/uart.c:1363
+0x400d5a9b: UART_tx_data at E:/Espressif/ESP/My_project/components/lib_uart/app_uart.c:98
+0x400d57c3: app_main at E:/Espressif/ESP/My_project/main/app_main.c:18
+0x400e6868: main_task at E:/Espressif/frameworks/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x40087171: vPortTaskWrapper at E:/Espressif/frameworks/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[1;31mNone[0m
+[0;33mWaiting for the device to reconnect[0m[0;33m0x4000c320: memcpy in ROM
+[0m
+[0;33m0x4000c2e0: memcpy in ROM
+0x4000c2f6: memcpy in ROM
+[0m
+[0;33m.[0m[0;33m0x4000c31d: memcpy in ROM
+0x40085dee: prvCopyItemNoSplit at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:411
+0x40085ff0: prvSendAcquireGeneric at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:766
+0x4008614d: xRingbufferSend at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:1048
+0x400d8b58: uart_tx_all at E:/Espressif/frameworks/esp-idf-v5.2.2/components/driver/uart/uart.c:1326
+0x400d949a: uart_write_bytes at E:/Espressif/frameworks/esp-idf-v5.2.2/components/driver/uart/uart.c:1363
+0x400d5a9b: UART_tx_data at E:/Espressif/ESP/My_project/components/lib_uart/app_uart.c:98
+0x400d57c3: app_main at E:/Espressif/ESP/My_project/main/app_main.c:18
+0x400e6868: main_task at E:/Espressif/frameworks/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x40087171: vPortTaskWrapper at E:/Espressif/frameworks/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4000c320: memcpy in ROM
+[0m
+[0;33m0x4000c2e0: memcpy in ROM
+0x4000c2f6: memcpy in ROM
+[0m
+[0;33m.[0m[0;33m0x4000c31d: memcpy in ROM
+0x40085dee: prvCopyItemNoSplit at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:411
+0x40085ff0: prvSendAcquireGeneric at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:766
+0x4008614d: xRingbufferSend at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:1048
+0x400d8b58: uart_tx_all at E:/Espressif/frameworks/esp-idf-v5.2.2/components/driver/uart/uart.c:1326
+0x400d949a: uart_write_bytes at E:/Espressif/frameworks/esp-idf-v5.2.2/components/driver/uart/uart.c:1363
+0x400d5a9b: UART_tx_data at E:/Espressif/ESP/My_project/components/lib_uart/app_uart.c:98
+0x400d57c3: app_main at E:/Espressif/ESP/My_project/main/app_main.c:18
+0x400e6868: main_task at E:/Espressif/frameworks/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x40087171: vPortTaskWrapper at E:/Espressif/frameworks/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m.[0m[0;33m0x4000c320: memcpy in ROM
+[0m
+[0;33m0x4000c2e0: memcpy in ROM
+0x4000c2f6: memcpy in ROM
+[0m
+[0;33m.[0m[0;33m0x4000c31d: memcpy in ROM
+0x40085dee: prvCopyItemNoSplit at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:411
+0x40085ff0: prvSendAcquireGeneric at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:766
+0x4008614d: xRingbufferSend at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:1048
+0x400d8b58: uart_tx_all at E:/Espressif/frameworks/esp-idf-v5.2.2/components/driver/uart/uart.c:1326
+0x400d949a: uart_write_bytes at E:/Espressif/frameworks/esp-idf-v5.2.2/components/driver/uart/uart.c:1363
+0x400d5a9b: UART_tx_data at E:/Espressif/ESP/My_project/components/lib_uart/app_uart.c:98
+0x400d57c3: app_main at E:/Espressif/ESP/My_project/main/app_main.c:18
+0x400e6868: main_task at E:/Espressif/frameworks/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x40087171: vPortTaskWrapper at E:/Espressif/frameworks/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4000c320: memcpy in ROM
+[0m
+[0;33m0x4000c2e0: memcpy in ROM
+0x4000c2f6: memcpy in ROM
+[0m
+[0;33m.[0m[0;33m0x4000c31d: memcpy in ROM
+0x40085dee: prvCopyItemNoSplit at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:411
+0x40085ff0: prvSendAcquireGeneric at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:766
+0x4008614d: xRingbufferSend at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:1048
+0x400d8b58: uart_tx_all at E:/Espressif/frameworks/esp-idf-v5.2.2/components/driver/uart/uart.c:1326
+0x400d949a: uart_write_bytes at E:/Espressif/frameworks/esp-idf-v5.2.2/components/driver/uart/uart.c:1363
+0x400d5a9b: UART_tx_data at E:/Espressif/ESP/My_project/components/lib_uart/app_uart.c:98
+0x400d57c3: app_main at E:/Espressif/ESP/My_project/main/app_main.c:18
+0x400e6868: main_task at E:/Espressif/frameworks/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x40087171: vPortTaskWrapper at E:/Espressif/frameworks/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m.[0m[0;33m0x4000c320: memcpy in ROM
+[0m
+[0;33m0x4000c2e0: memcpy in ROM
+0x4000c2f6: memcpy in ROM
+[0m
+[0;33m.[0m[0;33m0x4000c31d: memcpy in ROM
+0x40085dee: prvCopyItemNoSplit at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:411
+0x40085ff0: prvSendAcquireGeneric at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:766
+0x4008614d: xRingbufferSend at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:1048
+0x400d8b58: uart_tx_all at E:/Espressif/frameworks/esp-idf-v5.2.2/components/driver/uart/uart.c:1326
+0x400d949a: uart_write_bytes at E:/Espressif/frameworks/esp-idf-v5.2.2/components/driver/uart/uart.c:1363
+0x400d5a9b: UART_tx_data at E:/Espressif/ESP/My_project/components/lib_uart/app_uart.c:98
+0x400d57c3: app_main at E:/Espressif/ESP/My_project/main/app_main.c:18
+0x400e6868: main_task at E:/Espressif/frameworks/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x40087171: vPortTaskWrapper at E:/Espressif/frameworks/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4000c320: memcpy in ROM
+[0m
+[0;33m0x4000c2e0: memcpy in ROM
+0x4000c2f6: memcpy in ROM
+[0m
+[0;33m.[0m[0;33m0x4000c31d: memcpy in ROM
+0x40085dee: prvCopyItemNoSplit at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:411
+0x40085ff0: prvSendAcquireGeneric at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:766
+0x4008614d: xRingbufferSend at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:1048
+0x400d8b58: uart_tx_all at E:/Espressif/frameworks/esp-idf-v5.2.2/components/driver/uart/uart.c:1326
+0x400d949a: uart_write_bytes at E:/Espressif/frameworks/esp-idf-v5.2.2/components/driver/uart/uart.c:1363
+0x400d5a9b: UART_tx_data at E:/Espressif/ESP/My_project/components/lib_uart/app_uart.c:98
+0x400d57c3: app_main at E:/Espressif/ESP/My_project/main/app_main.c:18
+0x400e6868: main_task at E:/Espressif/frameworks/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x40087171: vPortTaskWrapper at E:/Espressif/frameworks/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m.[0m[0;33m0x4000c320: memcpy in ROM
+[0m
+[0;33m0x4000c2e0: memcpy in ROM
+0x4000c2f6: memcpy in ROM
+[0m
+[0;33m0x4000c31d: memcpy in ROM
+0x40085dee: prvCopyItemNoSplit at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:411
+0x40085ff0: prvSendAcquireGeneric at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:766
+0x4008614d: xRingbufferSend at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:1048
+0x400d8b58: uart_tx_all at E:/Espressif/frameworks/esp-idf-v5.2.2/components/driver/uart/uart.c:1326
+0x400d949a: uart_write_bytes at E:/Espressif/frameworks/esp-idf-v5.2.2/components/driver/uart/uart.c:1363
+0x400d5a9b: UART_tx_data at E:/Espressif/ESP/My_project/components/lib_uart/app_uart.c:98
+0x400d57c3: app_main at E:/Espressif/ESP/My_project/main/app_main.c:18
+0x400e6868: main_task at E:/Espressif/frameworks/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x40087171: vPortTaskWrapper at E:/Espressif/frameworks/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m.[0m[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4000c320: memcpy in ROM
+[0m
+[0;33m0x4000c2e0: memcpy in ROM
+0x4000c2f6: memcpy in ROM
+[0m
+[0;33m.[0m[0;33m0x4000c31d: memcpy in ROM
+0x40085dee: prvCopyItemNoSplit at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:411
+0x40085ff0: prvSendAcquireGeneric at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:766
+0x4008614d: xRingbufferSend at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.c:1048
+0x400d8b58: uart_tx_all at E:/Espressif/frameworks/esp-idf-v5.2.2/components/driver/uart/uart.c:1326
+0x400d949a: uart_write_bytes at E:/Espressif/frameworks/esp-idf-v5.2.2/components/driver/uart/uart.c:1363
+0x400d5a9b: UART_tx_data at E:/Espressif/ESP/My_project/components/lib_uart/app_uart.c:98
+0x400d57c3: app_main at E:/Espressif/ESP/My_project/main/app_main.c:18
+0x400e6868: main_task at E:/Espressif/frameworks/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x40087171: vPortTaskWrapper at E:/Espressif/frameworks/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4000c320: memcpy in ROM
+[0m
+[0;33m0x4000c2e0: memcpy in ROM
+0x4000c2f6: memcpy in ROM
+[0m
+[0;33m.[0m[0;33m0x4000c31d: memcpy in ROM
+0x40085dee: prvCopyItemNoSplit at E:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf/ringbuf.

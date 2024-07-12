@@ -16,7 +16,15 @@
         "*.inc": "c",
         "esp_smartconfig.h": "c",
         "hal_gpio.h": "c",
-        "sdkconfig.h": "c"
+        "sdkconfig.h": "c",
+        "gpio.h": "c",
+        "freertos.h": "c",
+        "task.h": "c",
+        "app_uart.h": "c",
+        "app_gpio.h": "c",
+        "output_iot.h": "c",
+        "uart.h": "c",
+        "queue.h": "c"
     },
     "cmake.sourceDirectory": "E:/Espressif/ESP/esp-idf-v4.2.3/components/bt"
 }

@@ -2,34 +2,34 @@
 	"sources" : 
 	[
 		{
-			"file" : "D:/Espressif/ESP/My_project/build/CMakeFiles/bootloader"
+			"file" : "E:/Espressif/ESP/My_project/build/CMakeFiles/bootloader"
 		},
 		{
-			"file" : "D:/Espressif/ESP/My_project/build/CMakeFiles/bootloader.rule"
+			"file" : "E:/Espressif/ESP/My_project/build/CMakeFiles/bootloader.rule"
 		},
 		{
-			"file" : "D:/Espressif/ESP/My_project/build/CMakeFiles/bootloader-complete.rule"
+			"file" : "E:/Espressif/ESP/My_project/build/CMakeFiles/bootloader-complete.rule"
 		},
 		{
-			"file" : "D:/Espressif/ESP/My_project/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule"
+			"file" : "E:/Espressif/ESP/My_project/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule"
 		},
 		{
-			"file" : "D:/Espressif/ESP/My_project/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule"
+			"file" : "E:/Espressif/ESP/My_project/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule"
 		},
 		{
-			"file" : "D:/Espressif/ESP/My_project/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule"
+			"file" : "E:/Espressif/ESP/My_project/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule"
 		},
 		{
-			"file" : "D:/Espressif/ESP/My_project/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule"
+			"file" : "E:/Espressif/ESP/My_project/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule"
 		},
 		{
-			"file" : "D:/Espressif/ESP/My_project/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule"
+			"file" : "E:/Espressif/ESP/My_project/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule"
 		},
 		{
-			"file" : "D:/Espressif/ESP/My_project/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule"
+			"file" : "E:/Espressif/ESP/My_project/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule"
 		},
 		{
-			"file" : "D:/Espressif/ESP/My_project/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule"
+			"file" : "E:/Espressif/ESP/My_project/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule"
 		}
 	],
 	"target" : 

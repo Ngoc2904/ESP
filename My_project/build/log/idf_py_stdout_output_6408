@@ -1,0 +1,1163 @@
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7172
+load:0x40078000,len:15540
+load:0x40080400,len:4
+ho 8 tail 4 room 4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (31) boot: ESP-IDF v5.2.2-dirty 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Jul 12 2024 13:42:45[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (36) boot: chip revision: v3.1[0m
+[0;32mI (40) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (44) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (49) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (53) boot: Enabling RNG early entropy source...[0m
+[0;32mI (59) boot: Partition Table:[0m
+[0;32mI (62) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (70) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (77) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (85) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (92) boot: End of partition table[0m
+[0;32mI (96) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0b15ch ( 45404) map[0m
+[0;32mI (120) esp_image: segment 1: paddr=0001b184 vaddr=3ffb0000 size=02254h (  8788) load[0m
+[0;32mI (124) esp_image: segment 2: paddr=0001d3e0 vaddr=40080000 size=02c38h ( 11320) load[0m
+[0;32mI (131) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=17318h ( 95000) map[0m
+[0;32mI (167) esp_image: segment 4: paddr=00037340 vaddr=40082c38 size=0acc0h ( 44224) load[0m
+[0;32mI (191) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (192) boot: Disabling RNG early entropy source...[0m
+[0;32mI (203) cpu_start: Multicore app[0m
+[0;32mI (212) cpu_start: Pro cpu start user code[0m
+[0;32mI (212) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (212) cpu_start: Application information:[0m
+[0;32mI (215) cpu_start: Project name:     My_project[0m
+[0;32mI (220) cpu_start: App version:      aed7665-dirty[0m
+[0;32mI (226) cpu_start: Compile time:     Jul 12 2024 13:42:33[0m
+[0;32mI (232) cpu_start: ELF file SHA256:  5a7d3fbd6...[0m
+[0;32mI (237) cpu_start: ESP-IDF:          v5.2.2-dirty[0m
+[0;32mI (242) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (247) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (252) cpu_start: Chip rev:         v3.1[0m
+[0;32mI (257) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (264) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (270) heap_init: At 3FFB2B28 len 0002D4D8 (181 KiB): DRAM[0m
+[0;32mI (276) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (282) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (289) heap_init: At 4008D8F8 len 00012708 (73 KiB): IRAM[0m
+[0;32mI (297) spi_flash: detected chip: generic[0m
+[0;32mI (300) spi_flash: flash io: dio[0m
+[0;33mW (304) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (318) main_task: Started on CPU0[0m
+[0;32mI (328) main_task: Calling app_main()[0m
+[0;32mI (328) gpio: GPIO[2]| Inp[0;31mE (338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (1338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (1338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (2338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (2338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (3338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (3338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (4338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (4338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (5338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (5338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (6338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (6338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (7338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (7338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (8338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (8338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (9338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (9338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (10338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (10338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (11338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (11338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (12338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (12338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (13338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (13338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (14338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (14338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (15338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (15338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (16338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (16338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (17338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (17338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (18338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (18338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (19338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (19338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (20338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (20338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (21338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (21338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (22338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (22338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (23338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (23338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (24338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (24338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (25338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (25338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (26338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (26338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (27338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (27338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (28338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (28338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (29338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (29338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (30338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (30338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (31338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (31338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (32338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (32338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (33338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (33338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (34338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (34338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (35338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (35338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (36338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (36338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (37338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (37338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (38338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (38338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (39338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (39338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (40338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (40338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (41338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (41338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (42338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (42338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (43338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (43338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (44338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (44338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (45338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (45338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (46338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (46338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (47338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (47338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (48338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (48338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (49338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (49338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (50338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (50338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (51338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (51338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (52338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (52338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (53338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (53338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (54338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (54338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (55338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (55338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (56338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (56338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (57338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (57338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (58338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (58338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (59338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (59338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (60338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (60338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (61338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (61338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (62338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (62338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (63338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (63338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (64338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (64338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (65338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (65338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (66338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (66338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (67338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (67338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (68338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (68338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (69338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (69338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (70338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (70338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (71338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (71338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (72338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (72338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (73338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (73338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (74338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (74338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (75338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (75338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (76338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (76338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (77338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (77338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (78338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (78338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (79338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (79338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (80338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (80338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (81338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (81338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (82338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (82338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (83338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (83338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (84338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (84338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (85338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (85338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (86338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (86338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (87338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (87338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (88338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (88338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (89338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (89338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (90338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (90338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (91338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (91338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (92338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (92338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (93338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (93338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (94338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (94338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (95338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (95338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (96338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (96338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (97338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (97338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (98338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (98338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (99338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (99338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (100338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (100338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (101338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (101338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (102338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (102338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (103338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (103338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (104338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (104338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (105338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (105338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (106338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (106338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (107338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (107338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (108338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (108338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (109338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (109338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (110338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (110338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (111338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (111338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (112338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (112338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (113338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (113338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (114338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (114338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (115338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (115338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (116338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (116338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (117338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (117338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (118338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (118338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (119338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (119338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (120338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (120338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (121338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (121338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (122338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (122338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (123338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (123338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (124338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (124338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (125338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (125338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (126338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (126338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (127338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (127338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (128338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (128338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (129338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (129338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (130338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (130338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (131338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (131338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (132338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (132338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (133338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (133338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (134338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (134338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (135338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (135338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (136338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (136338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (137338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (137338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (138338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (138338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (139338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (139338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (140338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (140338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (141338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (141338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (142338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (142338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (143338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (143338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (144338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (144338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (145338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (145338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (146338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (146338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (147338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (147338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (148338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (148338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (149338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (149338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (150338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (150338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (151338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (151338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (152338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (152338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (153338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (153338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (154338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (154338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (155338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (155338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (156338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (156338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (157338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (157338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (158338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (158338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (159338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (159338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (160338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (160338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (161338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (161338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (162338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (162338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (163338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (163338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (164338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (164338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (165338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (165338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (166338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (166338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (167338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (167338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (168338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (168338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (169338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (169338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (170338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (170338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (171338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (171338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (172338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (172338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (173338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (173338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (174338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (174338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (175338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (175338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (176338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (176338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (177338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (177338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (178338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (178338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (179338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (179338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (180338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (180338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (181338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (181338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (182338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (182338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (183338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (183338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (184338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (184338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (185338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (185338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (186338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (186338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (187338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (187338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (188338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (188338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (189338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (189338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (190338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (190338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (191338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (191338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (192338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (192338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (193338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (193338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (194338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (194338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (195338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (195338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (196338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (196338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (197338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (197338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (198338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (198338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (199338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (199338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (200338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (200338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (201338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (201338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (202338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (202338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (203338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (203338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (204338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (204338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (205338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (205338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (206338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (206338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (207338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (207338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (208338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (208338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (209338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (209338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (210338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (210338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (211338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (211338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (212338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (212338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (213338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (213338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (214338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (214338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (215338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (215338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (216338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (216338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (217338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (217338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (218338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (218338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (219338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (219338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (220338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (220338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (221338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (221338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (222338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (222338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (223338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (223338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (224338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (224338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (225338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (225338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (226338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (226338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (227338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (227338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (228338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (228338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (229338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (229338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (230338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (230338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (231338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (231338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (232338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (232338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (233338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (233338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (234338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (234338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (235338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (235338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (236338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (236338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (237338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (237338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (238338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (238338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (239338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (239338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (240338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (240338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (241338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (241338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (242338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (242338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (243338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (243338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (244338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (244338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (245338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (245338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (246338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (246338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (247338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (247338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (248338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (248338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (249338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (249338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (250338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (250338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (251338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (251338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (252338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (252338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (253338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (253338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (254338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (254338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (255338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (255338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (256338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (256338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (257338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (257338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (258338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (258338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (259338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (259338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (260338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (260338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (261338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (261338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (262338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (262338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (263338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (263338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (264338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (264338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (265338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (265338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (266338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (266338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (267338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (267338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (268338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (268338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (269338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (269338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (270338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (270338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (271338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (271338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (272338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (272338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (273338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (273338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (274338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (274338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (275338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (275338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (276338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (276338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (277338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (277338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (278338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (278338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (279338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (279338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (280338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (280338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (281338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (281338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (282338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (282338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (283338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (283338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (284338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (284338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (285338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (285338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (286338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (286338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (287338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (287338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (288338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (288338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (289338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (289338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (290338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (290338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (291338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (291338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (292338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (292338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (293338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (293338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (294338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (294338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (295338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (295338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (296338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (296338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (297338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (297338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (298338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (298338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (299338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (299338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (300338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (300338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (301338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (301338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (302338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (302338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (303338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (303338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (304338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (304338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (305338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (305338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (306338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (306338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (307338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (307338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (308338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (308338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (309338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (309338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (310338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (310338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (311338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (311338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (312338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (312338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (313338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (313338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (314338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (314338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (315338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (315338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (316338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (316338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (317338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (317338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (318338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (318338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (319338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (319338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (320338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (320338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (321338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (321338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (322338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (322338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (323338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (323338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (324338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (324338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (325338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (325338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (326338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (326338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (327338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (327338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (328338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (328338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (329338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (329338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (330338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (330338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (331338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (331338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (332338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (332338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (333338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (333338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (334338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (334338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (335338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (335338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (336338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (336338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (337338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (337338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (338338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (338338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (339338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (339338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (340338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (340338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (341338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (341338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (342338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (342338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (343338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (343338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (344338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (344338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (345338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (345338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (346338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (346338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (347338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (347338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (348338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (348338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (349338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (349338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (350338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (350338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (351338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (351338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (352338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (352338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (353338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (353338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (354338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (354338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (355338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (355338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (356338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (356338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (357338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (357338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (358338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (358338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (359338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (359338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (360338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (360338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (361338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (361338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (362338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (362338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (363338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (363338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (364338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (364338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (365338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (365338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (366338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (366338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (367338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (367338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
+[0;31mE (368338) uart: uart_write_bytes(1361): uart driver error[0m
+[0;32mI (368338) UART_TX_DATA: Wrote -1 bytes on UART 1061170976[0m
+led_toggle
